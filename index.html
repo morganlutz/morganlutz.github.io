@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/app.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/scripts.js"></script>
+
+    <style type="text/css">
+
+    a {
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .circle {
+      display: block;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #eee;
+    }
+
+    .flexcontainer {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+    }
+
+    span {
+    }
+
+    </style>
+
     <title>Hire me</title>
   </head>
   <body>
@@ -21,11 +46,23 @@
       <p>matching cutesy thing with Nina</p>
     </div>
 
-    <div class="projects">
-      <h3>Java Project title</h3>
-      <h3>Javascript Project title</h3>
-      <h3>Android Project title</h3>
-      <h3>Game / design Project title</h3>
+    <div class="flexcontainer">
+      <div>
+        <a class="circle" href="#">Jeremy's List</a>
+      </div>
+
+      <div>
+        <a class="circle" href="#">Vacation Tracker</a>
+      </div>
+
+      <div>
+        <a class="circle" href="#">GET OFF THE BUS!</a>
+      </div>
+
+      <div>
+        <a class="circle" href="#">Firefly</a>
+      </div>
+
     </div>
 
     <div class="contact-me">
